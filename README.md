@@ -1,2 +1,2 @@
 # Faculdade-SENAC
- conteúdo das aulas do curso de Analise e Desenvolvimento de Sistemas
+ conteúdo das atividade realizadas nas aulas do curso de Analise e Desenvolvimento de Sistemas da faculdade SENAC
