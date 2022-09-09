@@ -1,0 +1,88 @@
+*
+
+/* Douglas Flexbox Conteiner e Directions*/
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+}
+.flex-container3 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: DodgerBlue;
+}
+.flex-container3>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container2>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-direction: row;
+}
+
+
+
+/* Gustavo Oliveira */
+#myDIV{
+    justify-content: center;
+    height:300px;
+    background-color:DodgerBlue;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+#myDIV div {
+    width: 80px;
+    height: 80px; 
+  }
+  #myDIV2{
+    justify-content: center;
+    height:300px;
+    background-color:DodgerBlue;
+    display: flex;
+    justify-content: center;
+  }
+  #myDIV2 div {
+    width: 80px;
+    height: 80px; 
+  }
+  #myDIV3{
+    justify-content: center;
+    height:300px;
+    background-color:DodgerBlue;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #myDIV3 div {
+    width: 80px;
+    height: 80px; 
+  }
+/* Kaio Lima */
+
+/* Lucas Melo  */
+
+/* Estela */
+

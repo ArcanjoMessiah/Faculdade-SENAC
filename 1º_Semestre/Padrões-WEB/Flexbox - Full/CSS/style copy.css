@@ -1,0 +1,195 @@
+*
+
+/* Douglas Flexbox Conteiner e Directions*/
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+}
+.flex-container3 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: DodgerBlue;
+}
+.flex-container3>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container2>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-direction: row;
+}
+
+.flex-container4 {
+    display: flex;
+    flex-direction: row;
+    background-color: DodgerBlue;
+}
+.flex-container4>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-direction: row;
+}
+
+
+/* Gustavo Oliveira */
+.flex-justify {
+    display: flex;
+   
+    background-color: DodgerBlue;
+}
+.flex-justify>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    justify-content: flex-start;
+}
+.flex-justify2 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: DodgerBlue;
+}
+.flex-justify2>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-justify3 {
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+}
+.flex-justify3>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-justify4 {
+    display: flex;
+    justify-content: space-around;
+    background-color: DodgerBlue;
+}
+.flex-justify4>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+/* Kaio Lima */
+
+.flex-container-align {
+    display: flex;
+    background-color: DodgerBlue;
+}
+.flex-align-content {
+    display: flex;
+    align-content: flex-end;
+    background-color: DodgerBlue;
+}
+
+.flex-align-content>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   
+}
+
+.flex-align-content2{
+    display: flex;
+    align-content: flex-end;
+    background-color: DodgerBlue;
+}
+
+.flex-align-content2>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.flex-align-content3 {
+    display: flex;
+    align-content: center;
+    background-color: DodgerBlue;
+}
+
+.flex-align-content3>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.flex-align-content4 {
+    width: 70px;
+    height: 400px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: DodgerBlue;
+}
+
+.flex-align-content4>div {
+    width: 70px;
+    height: 70px;
+    
+    
+}
+
+/* Lucas Melo  */
+
+/* Estela */
+

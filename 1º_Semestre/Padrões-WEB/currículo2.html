@@ -1,0 +1,122 @@
+<html>
+  <head>
+
+  <title> MINHA PÁGINA Teste</title> 
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  /*height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+  </head>
+  <body>
+    <header>
+    
+      <div style="background-color:black;color:white;padding:20px;">
+  <h1>Currículo </h1>
+  <h3><i> SENAC</i></h3>
+      </div>
+    </header>
+  <br><br>
+<section>
+  <nav>
+
+    <img width="200px" src="image.png">
+    Douglas de Freitas
+
+    <h2>Dados pessoais</h2>
+  
+    <h2>Titulo 2</h2>
+  
+    <h2>Titulo 3</h2>
+</nav>
+
+<article>     
+    <center>
+      <div>
+
+  <img width="200px" src="Animated_Pengu_Emote.png">
+  <br>
+  <br>
+</div>
+
+<br>
+<br>
+  <table border="2px">
+    <form action="/currículo.html">
+        <thead bgcolor="grey">SENAC</thead>
+        <tr><td> Nome: </td><td><input type="text" name="nome"></td></tr>
+        <tr><td> Unidade: </td> <td><input type="text" name="unidade"></td></tr>
+        <tr><td> Turma: </td><td><input type="text" name="turma"></td></tr>
+        <tr><td><input type="reset" name="Limpar"></td><td><button type="button" onclick="alert('Site produzido por Doulgas - O formulário ainda não é funcional') ">Enviar</button></td></tr>
+    </form>
+  </table>  
+
+
+</article>
+  
+<br><br> 
+    </center>
+  </body>
+</html>
