@@ -155,8 +155,9 @@ include_once 'webcomplementes.html';
                             <label class="container">Volteio Iniciante
                                   <input type="checkbox" value="volteioIniciante"> 
                                     <span class="checkmark"></span>
-                            </label>                         
-                        
+                            </label> 
+
+                            <br><br>
                             <br>
                             <br>
                             <button type="reset" class="btn btn-warning float-left">Limpar</button>
