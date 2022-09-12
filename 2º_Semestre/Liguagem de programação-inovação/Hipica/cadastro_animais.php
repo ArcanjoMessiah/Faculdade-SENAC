@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 include_once 'webcomplementes.html';
+
 ?>
 <html lang="en">
 <head>
@@ -23,8 +24,9 @@ include_once 'webcomplementes.html';
                     <div class="card bg-dark text-white">
                         <div class="card-body">
                             <div class="custom-control custom-radio custom-control-inline">
-                                 <input type="radio" class="custom-control-input" id="animal" name="perfil_idperfil" value="3" checked="">
+                                 
                                 <label class="custom-control-label" for="animal">Animal</label>
+                                <br>
                             </div>
                             <br>                                                          
                             <label for="entidade">Entidade/Federação:</label>
@@ -99,8 +101,8 @@ include_once 'webcomplementes.html';
                             <label for="pelagem">Pelagem:</label>
                             <input type="text" name="pelagem" size="30" id="prefixo" class="form-control col-6">
                             
-                            <label for="nomeAnimal">Nome Anterior do Animal:</label>
-                            <input type="text" name="nomeAnimal" size="50" id="nomeAnimal" class="form-control">
+                            <label for="nomeAnimal2">Nome Anterior do Animal:</label>
+                            <input type="text" name="nomeAnimal2" size="50" id="nomeAnimal2" class="form-control">
 
                            <label for="sexo"> Sexo: </label>
                            <br>
