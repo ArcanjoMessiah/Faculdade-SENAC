@@ -1,6 +1,6 @@
 <?php
 /* Dados do Banco de Dados a conectar */
-$Servidor = 'localhost';
+$Servidor = '127.0.0.1';
 $nomeBanco = 'cadastro_hipica';
 $Usuario = 'root';
 $Senha = '123456';

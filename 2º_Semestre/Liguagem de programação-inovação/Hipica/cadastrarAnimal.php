@@ -19,11 +19,11 @@ $telefone = $_POST['telefone'];
 $paisorigem = $_POST['paisorigem'];
 $passaporte = $_POST['passaporte'];
 $chip = $_POST['chip'];
-$datanacimento = $_POST['datanacimento'];
+$datanascimento = $_POST['datanascimento'];
 $altura = $_POST['altura'];
 $pelagem = $_POST['pelagem'];
-$nomeAnimal2 = $_POST['nomeanteriordoanimal'];
-$sexo = $_POST['Sexo'];
+$nomeanteriordoanimal = $_POST['nomeanteriordoanimal'];
+$sexo = $_POST['sexo'];
 $modalidade = $_POST['modalidade'];
 
 
@@ -33,7 +33,7 @@ if (!$strcon) {
 }
 
 $sql = "INSERT INTO cadastro (entidade, nomedoanimal, prefixo, sufixo, patrocinio, raca, proprietario, endereco, bairro, cidade, uf, cep, cpf, rg, email, telefone, paisorigem, passaporte, chip, datanascimento, altura, pelagem, nomeanteriordoanimal, sexo, modalidade )
-VALUES ('{$entidade}', '{$nomeAnimal}', '{$prefixo}', '{$sufixo}', '{$patrocinio}', '{$raca}', '{$proprietario}', '{$endereco}', '{$bairro}', '{$cidade}', '{$uf}', '{$cep}', '{$cpf}', '{$rg}', '{$email}', '{$telefone}', '{$paisorigem}', '{$passaporte}', '{$chip}', '{$datanacimento}', '{$altura}', '{$pelagem}', '{$nomeAnimal2}', '{$sexo}', '{$modalidade}')";
+VALUES ('{$entidade}', '{$nomeAnimal}', '{$prefixo}', '{$sufixo}', '{$patrocinio}', '{$raca}', '{$proprietario}', '{$endereco}', '{$bairro}', '{$cidade}', '{$uf}', '{$cep}', '{$cpf}', '{$rg}', '{$email}', '{$telefone}', '{$paisorigem}', '{$passaporte}', '{$chip}', '{$datanascimento}', '{$altura}', '{$pelagem}', '{$nomeAnimal2}', '{$sexo}', '{$modalidade}')";
     if (mysqli_query($strcon,$sql)){
         echo "Registro criado com sucesso";
     } else{

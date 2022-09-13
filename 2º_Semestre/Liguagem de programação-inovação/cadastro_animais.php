@@ -90,8 +90,8 @@ include_once 'webcomplementes.html';
                             <label for="chip">Chip de identificação</label>
                             <input type="number" name="chip" id="chip" class="form-control col-6">
                            
-                            <label for="datanacimento">Data de Nascimento:</label>
-                            <input type="date" name="datanascimento" id="datanacimento" class="form-control col-5">
+                            <label for="datanascimento">Data de Nascimento:</label>
+                            <input type="date" name="datanascimento" id="datanascimento" class="form-control col-5">
                            
                             <label for="altura">Altura em Centímetros:</label>
                             <input type="number" name="altura" size="30" id="altura" class="form-control col-5" placeholder="150 cm">
